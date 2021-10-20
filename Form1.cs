@@ -41,7 +41,7 @@ namespace WindowsFormsApp87 {
 			// loop through all tables, find flagged block tables
 			// and pass them to "MergeSimilarColumns"
 			foreach (TXTextControl.Table table in FindBlockTables(textControl1)) {
-				MergeSimilarColumns(table);
+				MergeSimilarCells(table);
 			}
 		}
 
@@ -67,7 +67,7 @@ namespace WindowsFormsApp87 {
 			return tables;
 		}
 
-		private bool MergeSimilarColumns(TXTextControl.Table table, bool firstIteration = true) {
+		private bool MergeSimilarCells(TXTextControl.Table table, bool firstIteration = true) {
 			
 			// loop through all column separately
 			foreach (TXTextControl.TableColumn col in table.Columns) {
@@ -112,7 +112,7 @@ namespace WindowsFormsApp87 {
 
 			// two iterations required as rows are potentially merged
 			if (firstIteration == true)
-				MergeSimilarColumns(table, false);
+				MergeSimilarCells(table, false);
 
 			return false;
 		}
