@@ -1,0 +1,64 @@
+{
+  "OrderLines": [
+    {
+      "Name": "Product A",
+      "Quantity": 4,
+      "Price": 100.0,
+      "Category": 0
+    },
+    {
+      "Name": "Product B",
+      "Quantity": 4,
+      "Price": 100.0,
+      "Category": 0
+    },
+    {
+      "Name": "Product B",
+      "Quantity": 4,
+      "Price": 50.0,
+      "Category": 1
+    },
+    {
+      "Name": "Product B",
+      "Quantity": 4,
+      "Price": 50.0,
+      "Category": 1
+    },
+    {
+      "Name": "Product B",
+      "Quantity": 4,
+      "Price": 50.0,
+      "Category": 1
+    },
+    {
+      "Name": "Product B",
+      "Quantity": 4,
+      "Price": 50.0,
+      "Category": 1
+    },
+    {
+      "Name": "Product C",
+      "Quantity": 2,
+      "Price": 70.0,
+      "Category": 0
+    },
+    {
+      "Name": "Product C",
+      "Quantity": 2,
+      "Price": 70.0,
+      "Category": 0
+    },
+    {
+      "Name": "Product D",
+      "Quantity": 2,
+      "Price": 70.0,
+      "Category": 0
+    },
+    {
+      "Name": "Product D",
+      "Quantity": 2,
+      "Price": 70.0,
+      "Category": 0
+    }
+  ]
+}

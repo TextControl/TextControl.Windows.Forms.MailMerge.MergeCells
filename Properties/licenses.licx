@@ -1,0 +1,3 @@
+TXTextControl.TextControl, TXTextControl.Windows.Forms
+TXTextControl.Windows.Forms.Ribbon.Ribbon, TXTextControl.Windows.Forms
+TXTextControl.ServerTextControl, TXTextControl.Server
